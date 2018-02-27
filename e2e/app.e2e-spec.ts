@@ -1,14 +1,14 @@
 import { AppPage } from './app.po';
 
-describe('www.rostykerei.nl App', () => {
+describe('www.rostykerei.nl landing page', () => {
   let page: AppPage;
 
   beforeEach(() => {
     page = new AppPage();
   });
 
-  it('should display welcome message', () => {
+  it('should display the title', () => {
     page.navigateTo();
-    expect(page.getParagraphText()).toEqual('Welcome to app!');
+    expect(page.getParagraphText()).toEqual('Rosty Kerei');
   });
 });
