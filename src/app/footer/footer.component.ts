@@ -7,5 +7,5 @@ import {version} from '../../environments/version';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent {
-  versionData = version;
+  versionData: any = version;
 }
