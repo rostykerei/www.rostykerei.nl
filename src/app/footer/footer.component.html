@@ -1,0 +1,5 @@
+<footer>
+  <span *ngIf="versionData.version">version <b>{{versionData.version}}</b></span>
+  <span *ngIf="versionData.buildNumber">build <a href="https://travis-ci.org/rostykerei/www.rostykerei.nl/builds/{{versionData.buildId}}" target="_blank">#{{versionData.buildNumber}}</a></span>
+  <span *ngIf="versionData.commit">commit <a href="https://github.com/rostykerei/www.rostykerei.nl/commit/{{versionData.commit}}" target="_blank">{{versionData.commit}}</a></span>
+</footer>
